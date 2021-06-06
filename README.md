@@ -1,8 +1,22 @@
+1，环境部署
+pip install -i https://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple tqdm
+pip install -i https://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple scipy
+pip install -i https://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple visdom
+pip install -i https://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple scikit-learn==0.19.2
+
+2，下载权重放到Model文件夹
+链接：https://pan.baidu.com/s/1AnCrwS_BOxrFw4ZzR24ECw 
+提取码：2sp2 
+复制这段内容后打开百度网盘手机App，操作更方便哦
+
+3，运行识别程序：
+python main.py -C 20210606_191312.mp4
+
 <h1> Human Falling Detection and Tracking </h1>
 
 Using Tiny-YOLO oneclass to detect each person in the frame and use 
 [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) to get skeleton-pose and then use
-[ST-GCN](https://github.com/yysijie/st-gcn) model to predict action from every 30 frames 
+[ST-GCN](https:/python main.py -C 20210606_191312.mp4/github.com/yysijie/st-gcn) model to predict action from every 30 frames 
 of each person tracks.
 
 Which now support 7 actions: Standing, Walking, Sitting, Lying Down, Stand up, Sit down, Fall Down.
