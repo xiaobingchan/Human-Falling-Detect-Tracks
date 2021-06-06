@@ -1,16 +1,20 @@
 1，环境部署
+```shell
 pip install -i https://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple tqdm
 pip install -i https://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple scipy
 pip install -i https://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple visdom
 pip install -i https://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple scikit-learn==0.19.2
-
+```
 2，下载权重放到Model文件夹
+```shell
 链接：https://pan.baidu.com/s/1AnCrwS_BOxrFw4ZzR24ECw 
 提取码：2sp2 
-复制这段内容后打开百度网盘手机App，操作更方便哦
+```
 
 3，运行识别程序：
+```shell
 python main.py -C 20210606_191312.mp4
+```
 
 <h1> Human Falling Detection and Tracking </h1>
 
